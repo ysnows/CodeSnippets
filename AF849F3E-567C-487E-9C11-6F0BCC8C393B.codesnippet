@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> auto &lt;#type#&gt;_&lt;#name#&gt;=static_cast&lt;&lt;#ViewType#&gt; *&gt;(&lt;#_rootLayout#&gt;-&gt;getChildByName("&lt;#viewname#&gt;"));
+    &lt;#view#&gt;-&gt;addClickEventListener([this](Ref *sender){
+        &lt;#expression#&gt;
+        
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AF849F3E-567C-487E-9C11-6F0BCC8C393B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Code Snippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

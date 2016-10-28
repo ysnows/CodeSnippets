@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>findl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>auto btn_&lt;#name#&gt;=dynamic_cast&lt;Button *&gt;(_rootLayout-&gt;getChildByName("&lt;#viewname#&gt;"));
+    btn_&lt;#name#&gt;-&gt;addClickEventListener([this](Ref *sender){
+        &lt;#expression#&gt;
+        
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B71B5EDA-F21E-4EDB-A200-4E4F9E347936</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>FindView&amp;setClickListener</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>FindView&amp;setClickListener</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
